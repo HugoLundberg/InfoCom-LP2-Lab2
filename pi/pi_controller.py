@@ -10,12 +10,17 @@ def get_direction():
     d_la = 0
     send_vel = False
     c = click.getchar()
+    #while True:
+        #for event in sense.stick.get_event():
+            #if event.direction == "left"
+                #print(event.direction, event.action)
     if c =='a':
         click.echo('Left')
         send_vel = True
         d_long = -1
         d_la = 0
     elif c == 'd':
+            #elif event.direction == "right"
         click.echo('Right')
         send_vel = True
         d_long = 1
